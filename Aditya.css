@@ -5,7 +5,7 @@
    
 }
 .mainPage{
-    background: url("./Images/main.jpg");
+    background: url("./Images/logo.jpeg");
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -42,8 +42,8 @@ iframe{
 }
 
 @keyframes lineAnimate {
-    from {width: 0rem;}
-    to {width: 40rem;}
+    from {width: 0%;}
+    to {width: 100%;}
 }
 
 .myCard{
@@ -54,4 +54,24 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(8px);
 -webkit-backdrop-filter: blur(8px);
 
+}
+
+
+@media (min-width:200px) {
+    .bannerText{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:480px) {
+    .bannerText{
+        font-size: 1.5rem;
+       
+    }
+}
+
+@media (min-width:600px) {
+    .bannerText{
+        font-size: 2rem;
+    }
 }
