@@ -6,6 +6,7 @@
 }
 .mainPage{
     background: url("./Images/logo.jpeg");
+    
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -35,7 +36,7 @@ iframe{
     width: 0rem;
     height: 1rem;
     display: block;
-    border-bottom: 2px solid yellow;
+    border-bottom: 5px solid yellow;
     animation-name: lineAnimate;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -59,7 +60,7 @@ backdrop-filter: blur(8px);
 
 @media (min-width:200px) {
     .bannerText{
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 }
 
