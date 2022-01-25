@@ -24,3 +24,34 @@
     font-family: 'Roboto Mono', monospace;
      letter-spacing: 0.2rem;
 }
+
+
+iframe{
+    height: 20rem;
+    width: 20rem;
+}
+
+#line{
+    width: 0rem;
+    height: 1rem;
+    display: block;
+    border-bottom: 2px solid yellow;
+    animation-name: lineAnimate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lineAnimate {
+    from {width: 0rem;}
+    to {width: 40rem;}
+}
+
+.myCard{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.16);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px);
+
+}
