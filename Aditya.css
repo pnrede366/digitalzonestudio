@@ -76,3 +76,16 @@ backdrop-filter: blur(8px);
         font-size: 2rem;
     }
 }
+.scroll{
+    position: relative;
+    animation-name: scrollAnim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes scrollAnim {
+   from{transform:translateY(0rem)}
+   to{transform: translateY(4rem);}
+
+}
