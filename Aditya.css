@@ -9,7 +9,7 @@ html,body{
     overflow-x: hidden;
 }
 .mainPage{
-    background: url("./Images/logo.jpeg");
+    background: url("https://images.pexels.com/photos/1082663/pexels-photo-1082663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     
     height: 100vh;
     width: 100%;
@@ -40,7 +40,7 @@ iframe{
     width: 0rem;
     height: 1rem;
     display: block;
-    border-bottom: 5px solid yellow;
+   border-bottom:   5px solid #c82121;
     animation-name: lineAnimate;
     animation-duration: 3s;
     animation-iteration-count: infinite;
