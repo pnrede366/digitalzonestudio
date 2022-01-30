@@ -5,9 +5,7 @@
    
 }
 
-html,body{
-    overflow-x: hidden;
-}
+
 .mainPage{
     background: url("https://images.pexels.com/photos/1082663/pexels-photo-1082663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     
@@ -55,9 +53,11 @@ iframe{
     /* From https://css.glass */
 background: rgba(255, 255, 255, 0.16);
 border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(8px);
 -webkit-backdrop-filter: blur(8px);
+
+
 
 }
 
@@ -93,3 +93,6 @@ backdrop-filter: blur(8px);
    to{transform: translateY(4rem);}
 
 }
+
+
+
