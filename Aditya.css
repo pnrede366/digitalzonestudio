@@ -96,6 +96,6 @@ backdrop-filter: blur(8px);
 
 
 
-body{
+html,body{
     overflow-x: hidden;
 }
